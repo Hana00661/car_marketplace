@@ -36,14 +36,14 @@ Make sure you have Python and Django installed on your machine.
 ### Installation
 
 1. **Clone the repository**:
-   ```bash
+```bash
    git clone https://github.com/your-username/car-marketplace.git
    cd car-marketplace
-   ```
+```
 
 2. Set up a virtual environment (recommended):
 
-  ```bash
+```bash
      python -m venv venv
      source venv/bin/activate  # For Windows: venv\Scripts\activate
 ```
