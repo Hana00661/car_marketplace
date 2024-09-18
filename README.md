@@ -39,32 +39,38 @@ Make sure you have Python and Django installed on your machine.
    ```bash
    git clone https://github.com/your-username/car-marketplace.git
    cd car-marketplace
+   ```
 
 2. Set up a virtual environment (recommended):
 
-python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
+  ```bash
+     python -m venv venv
+     source venv/bin/activate  # For Windows: venv\Scripts\activate
+```
 
 3. Install dependencies:
 
+```bash
 pip install -r requirements.txt
-
+```
 
 4. Run migrations:
 
+```bash
 python manage.py migrate
-
+```
 
 5. Create a superuser to access the Django admin:
-
+```bash
 python manage.py createsuperuser
-
+```
 
 6. Run the development server:
 
+```bash
 python manage.py runserver
+```
 Visit http://127.0.0.1:8000/ to view the website.
-
 Media Files
 The project handles car images. Ensure you have a media/ directory for image uploads. If you encounter issues, adjust the MEDIA_URL and MEDIA_ROOT in your settings.py.
 Features to Add
@@ -77,4 +83,3 @@ Contributions are welcome! Feel free to fork the repository, make improvements, 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-add
